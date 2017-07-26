@@ -5,8 +5,8 @@ k+
 <section class="page-content">
 <div class="page-content-inner">
 	<div class="panel-heading">
-        <h3>Item Type</h3>
-        <p>Please Enter Item Type</p>
+        <h3>Item Size</h3>
+        <p>Please Enter Stock hare</p>
     </div>
 
     <!-- Basic Form Elements -->

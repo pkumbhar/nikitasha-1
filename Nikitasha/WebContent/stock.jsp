@@ -1,12 +1,12 @@
 <%@ include file = "/META-INF/web/version_html/Layout/header.jsp" %>
 <%@ include file = "/META-INF/web/version_html/Layout/subheader.jsp" %>
-k+
+
 
 <section class="page-content">
 <div class="page-content-inner">
 	<div class="panel-heading">
-        <h3>Item Type</h3>
-        <p>Please Enter Item Type</p>
+        <h3>Stok Entry</h3>
+        <p>Please Enter Stock hare</p>
     </div>
 
     <!-- Basic Form Elements -->

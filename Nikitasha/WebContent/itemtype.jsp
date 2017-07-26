@@ -1,23 +1,50 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-<h1>Item type</h1>
-<form METHOD="GET" ACTION="">
-<TABLE >
-  <tr>
-    <td>Item Name</td>
-    <td>
-      <INPUT TYPE="TEXT" NAME="name" SIZE="20">
-    </td>
-  </tr>
-</TABLE>
-<P><INPUT TYPE="submit" VALUE="Submit" ></P>
-</form>
+<%@ include file = "/META-INF/web/version_html/Layout/header.jsp" %>
+<%@ include file = "/META-INF/web/version_html/Layout/subheader.jsp" %>
+k+
+
+<section class="page-content">
+<div class="page-content-inner">
+	<div class="panel-heading">
+        <h3>Item Type</h3>
+        <p>Please Enter Item Type</p>
+    </div>
+
+    <!-- Basic Form Elements -->
+    <section class="panel">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="margin-bottom-50">
+                        <!-- Horizontal Form -->
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-md-3">
+                                    <label class="form-control-label" for="l0">Name</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="password" class="form-control" placeholder="Name" id="l0">
+                                </div>
+                            </div>
+                            
+                                <div class="form-group row">
+                                    <div class="col-md-9 col-md-offset-3">
+                                        <button type="button" class="btn width-150 btn-primary">Submit</button>
+                                        <button type="button" class="btn btn-default">Cancel</button>
+                                    </div>
+                                </div>
+                        </form>
+                        <!-- End Horizontal Form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+
+</div>
+</section>
+
+<div class="main-backdrop"><!-- --></div>
+
 </body>
 </html>
